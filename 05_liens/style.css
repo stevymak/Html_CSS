@@ -1,0 +1,21 @@
+.code{
+    color:#ffffff;
+    background: #000;
+    display:inline-block;
+    font-style: italic;
+}
+
+body{
+    background: gold;
+    color: black;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+h1,h2{
+    text-shadow: 4px 4px 6px gray;
+}
+
+p{
+    background: green;
+}
