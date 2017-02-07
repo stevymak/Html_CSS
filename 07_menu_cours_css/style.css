@@ -1,0 +1,88 @@
+*{
+    font-family: cursive;/*police d'ecriture*/
+    text-shadow: black 1px 1px;
+
+}
+
+nav{
+    background: #250;
+    color: #354;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;/*position à partir du haut de l'écran*/
+    left: 0;/*position à partir de la gauche de l'écran*/
+    margin: 0;
+}
+
+nav a{/* tous les liens à l'intérieur de la balise nav */
+    float: left;/* effet flotant a gauche */
+    text-decoration: none;/* pas d'héritage avec effet souligné
+    comme c'est standard pour les liens sous tous les navigateurs */
+    color: #; /* couleur du texte */
+    background: #574; /* couleur de fond */
+    height: 2.8em;/* hauteur de la nav */
+    line-height: 2.7em;/* interligne */
+    padding: 1em 2em;/* marges intérieures - on les fait dans le
+    sens des aiguilles d'une montre par convention (haut, droite,
+    bas, gauche)*/
+    font-size: 1.2em; /*taille du texte */
+    transition: 2s;/*temps de transition lors du hover (survol de
+    la souris) : ici 2 secondes */
+}
+
+nav a:hover{/* tous les liens au survol de la souris dans la nav */
+    background: #789; /* couleur de fond */
+    color: #fff; /* couleur de texte */
+}
+
+/* 1 er container */
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background: #54c7f9;
+    padding: 2em;
+}
+
+mark{
+    background: #EDFE00;
+}
+
+/* 2ème container*/
+.container1{
+    width: 70%;
+    margin: 2% auto; /*contraction pour 2% auto 2%auto*/
+    background: #54C7F9;
+    padding: 2%;
+}
+
+/*containers 3 et 4 imbriqués dans le container1*/
+.container2, .container3{
+    width: 44.5%;
+    background: #084762;
+    padding: 2%;
+    float: left;
+}
+.container2{
+    margin-right: 1.5%;
+}
+
+.container3{
+    margin-left: 1.5%;
+}
+
+/*5ème container*/
+.container4{
+    background-color: #54C7F9;
+    opacity:.4;
+    margin-top: 2em;
+    border-style: dashed;
+}
+
+.clear{
+    clear: both;
+}
+
+.x1 {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);

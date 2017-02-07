@@ -6,7 +6,7 @@
 }
 
 body{
-    background: gold;
+    background: white;
     color: black;
     font-family: cursive;
     text-transform: capitalize;
@@ -17,5 +17,5 @@ h1,h2{
 }
 
 p{
-    background: green;
+    background: white;
 }

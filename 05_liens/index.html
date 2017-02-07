@@ -18,6 +18,25 @@ facilement avec les liens "hypertext" -->
     dans le meme site, vers un autre site, comme d'autres
      actions</p>
 
+        <h2 id="top">Les ancres: liens à l'intérieur de la
+            <mark>meme</mark> page du site</h2>
+            <p>Les ancres sont particulièrement utiles sur les sites
+                web intégrant beaucoup de contenu (longueur de page)</p>
+            <p><a href="#interieur">Lien intérieur sur une autre
+                page du site</a></p>
+            <p><a href="#onglet">Lien ouvrant un nouvel onglet</a></p>
+            <p><a href="#site">Lien vers un autre site web</a></p>
+            <p><a href="#telecharger">Lien de télechargement d'un
+            fichier</a></p>
+            <p><a href="#see">Lien de visualisation d'un fichier
+            PDF</a></p>
+            <p><a href="#download">Lien de téléchargement d'un
+            fichier PDF</a></p>
+            <p><a href="#imageclic">Lien sur une image</a></p>
+            <p><a href="#print">Lien permettant d'imprimer la page
+            en cours</a></p>
+
+
         <h2 id="interieur">Lien intérieur sur une autre page du site</h2>
 
             <p>La balise &lt;a> permet de créer un lien hypertext et
@@ -26,7 +45,7 @@ facilement avec les liens "hypertext" -->
         <a href="index2.html">Cliquer ici pour aller en page 2</a>
             <p class="code">&lt;a href="index2.html">Cliquer ici
         pour aller en page 2&lt;/a></p>
-            <p><a href="#too">Top</a></p>
+            <p><a href="#top">Top</a></p>
 
         <hr />
 
@@ -81,6 +100,26 @@ facilement avec les liens "hypertext" -->
                 download> Télécharger l'image&lt;/a></p>
             <p><a href="#top">Top</a></p>
         <hr />
+
+        <h2 id="imageclic">Lien sur une image</h2>
+            <p>Ce lien ouvre une autre url en cliquant sur une
+            image</p>
+            <a href="http://www.20minutes.fr"><img
+            src="image.jpg" alt="un lion"/></a>
+            <p class="code">&lt;a
+                href="http://www.20minutes.fr">&lt;img
+                src="image.jpg" alt="un lion">&lt;/a></p>
+            <p><a href="#top">Top</a></p>
+            <hr />
+
+        <h2 id="print">Lien permettant d'imprimer la page en
+        cours</h2>
+            <a href="" onclick="window.print()">Imprimer la page</a>
+            <p class="code">&lt;a href=""
+            onClick="window.print()">Imprimer la page&lt;/a></p>
+            <p><a href="#top">Top</a></p>
+            <hr />
+
 
 
 </body>
