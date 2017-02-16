@@ -1,0 +1,45 @@
+*{
+    font-family: 'Abril Fatface' ,cursive;
+}
+#menu1{
+    height: 180px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+footer{
+    margin-top: 20em;
+}
+.clear{
+    clear: both;
+}
+.image1{
+    display: inline-block;
+    height: 520px;
+    width: 620px;
+    margin-top: 2em;
+}
+.texte1{
+    float: left;
+    margin-top: 0em;
+    margin-left: 35em;
+}
+.section1{
+    height: 50em;
+}
+.texte1 h1, .section1 p{
+    text-align: center;
+}
+#menu2{
+    height: 180px;
+    text-align: center;
+    position: static;
+    bottom: 5em;
+}
+.floatleft{
+    float: left;
+    height: 10em;
+    margin-top: -11em;
+}

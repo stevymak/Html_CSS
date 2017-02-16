@@ -1,12 +1,10 @@
 *{
     font-family: cursive;/*police d'ecriture*/
-    text-shadow: black 1px 1px;
 
 }
 
 nav{
-    background: #250;
-    color: #354;
+    background: red;
     padding: 0 0.5em;
     position: fixed;
     text-align: center;
@@ -20,8 +18,8 @@ nav a{/* tous les liens à l'intérieur de la balise nav */
     float: left;/* effet flotant a gauche */
     text-decoration: none;/* pas d'héritage avec effet souligné
     comme c'est standard pour les liens sous tous les navigateurs */
-    color: #; /* couleur du texte */
-    background: #574; /* couleur de fond */
+    color: white; /* couleur du texte */
+    background: red; /* couleur de fond */
     height: 2.8em;/* hauteur de la nav */
     line-height: 2.7em;/* interligne */
     padding: 1em 2em;/* marges intérieures - on les fait dans le
@@ -33,8 +31,8 @@ nav a{/* tous les liens à l'intérieur de la balise nav */
 }
 
 nav a:hover{/* tous les liens au survol de la souris dans la nav */
-    background: #789; /* couleur de fond */
-    color: #fff; /* couleur de texte */
+    background: black; /* couleur de fond */
+    color: white; /* couleur de texte */
 }
 
 /* 1 er container */
