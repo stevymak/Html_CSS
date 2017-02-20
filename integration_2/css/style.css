@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 10px 0;
     padding: 0;
     text-align: center;
@@ -7,23 +7,41 @@ body{
 }
 
 div#conteneur{
-    width: 770px;/*largeur*/
-    margin: 0 auto;/*marge automatique qui centre le bloc après
-    l'avoir remonté le plus haut possible dans mon affichage*/
-    text-align: left;/*centre le contenu de mon #conteneur*/
-    border: 2px solid #aabb44;/*bordure autour de toute la page*/
-    background: #fff;/*couleur du fond de mon #conteneur*/
+    width: 770px; largeur
+    margin: 0 auto; marge automatique qui centre le bloc après
+    l'avoir remonté le plus haut possible dans mon affichage
+    text-align: left; centre le contenu de mon #conteneur
+    border: 2px solid #aabb44; bordure autour de toute la page
+    background: #fff; couleur du fond de mon #conteneur
 }
 
 h1#header{
-    height: 258px;/*personnaliser la hauteur de mon titre*/
+    height: 258px; personnaliser la hauteur de mon titre
     background-image: url(../img/apple.jpg);
     background-repeat: no-repeat;
     margin-top: 0em;
     margin-left: 0;
 }
+
+nav{
+
+background-image:url(Html_CSS\integration_2\img\bg_menu.gif);
+}
+
+
 li {
     display: inline-block;
+    border-left: 2px solid white;
+}
+h2{
+    color:#b5c667;
+    border-bottom: 1px solid #b5c667;
+}
+h3{
+    color:#b5c667;
+    border-left: 4px solid #b5c667;
+    border-bottom: 1px solid #b5c667;
+    padding-left: 3px;
 }
 
 div#contenu{
@@ -35,4 +53,143 @@ div#contenu{
 div a, a:hover, a:visited, a:active{
     text-decoration: none;
     color: #000;
+}
+
+.caseright{
+    float: right;
+    padding-right:20px;
+    padding-top:20px;
+}
+*/
+body{
+    background: #ddeeaa;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Cabin Sketch ' cursive;
+}
+.caseright{
+    float: right;
+    padding-right:20px;
+    padding-top:20px;
+}
+
+div#conteneur
+{
+	width: 770px ;/*largeur*/
+	margin: 0 auto ;/*marge automatique qui centre le bloc après l'avoir remont
+    le plus haut possible */
+	text-align: left ;
+	border: 2px solid #aabb44 ;
+	background: #fff ;
+}
+
+h1#header
+{
+    height: 258px ;
+	background: url('../img/apple.jpg') no-repeat left top;
+    margin: 0;
+}
+
+    h1#header a/*il faut mettre les memes dimensions avec la propriété "display block"*/
+    {
+	width: 400px ;
+	height: 70px ;
+	display: block ;
+	background: url(title.gif) no-repeat ;
+	position: relative ;
+	left: 350px ;
+	top: 15px ;
+	text-indent: -5000px ;
+}
+
+ul#menu
+    {
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: url('../img/bg_menu.gif') repeat-x 0
+    -25px; /*décalage de 25pixels vers le haut*/
+	list-style-type: none ;/*on cache les puces*/
+    }
+
+    ul#menu li
+    {
+	float: left ;/*on rend les <li> flottants pour pouvoir
+    les afficher horzontalement*/
+	text-align: center ;/*centre le texte*/
+    }
+    ul#menu li a
+    {
+	width: 130px ;/*largeur*/
+	line-height: 25px ;/*hauteur de ligne*/
+	font-size: 1.2em ;/*taille de lap police*/
+	font-weight: bold ;/*accentuation en gras/bold de la
+    police*/
+	letter-spacing: 2px;/*espacement des lettres*/
+	color: #fff ;/*couleur du texte*/
+	display: block ;/*affichage en blocs*/
+	text-decoration: none ;/*supprimer la mise en forme
+    par défaut du navigateur (surlignage)*/
+	border-right: 2px solid #dea ;/*bordure droite*/
+    }
+
+    ul#menu li a:hover
+    {
+    	background: url('../img/bg_menu.gif') repeat-x 0 0 ;
+    }
+
+
+/*id contenu*/
+div#contenu
+    {
+	padding: 0 30px 0 100px ;
+	background-image: url('../img/bg_page.gif');
+    background-repeat: no-repeat;
+    background-position: 15px 15px;/*créé un espace a gauche et
+    à droite de l'image */
+    }
+    div#contenu h2
+    {
+    	padding-left: 25px ;
+    	line-height: 25px ;
+    	font-size: 1.4em ;
+    	background: url(little_apple.gif) no-repeat left bottom ;
+    	color: #9b2 ;
+        border-bottom: 1px solid #9b2;
+    }
+
+    div#contenu h3
+    {
+    	margin-left: 15px ;
+    	padding-left: 5px ;
+    	border-bottom: 1px solid #9b2 ;
+    	border-left: 3px solid #9b2 ;
+    	color: #9b2 ;
+    }
+
+    div#contenu p
+    {
+    	text-align: justify ;
+    	text-indent: 2em ;
+    	line-height: 1.7em ;
+    }
+
+    div#contenu a
+    {
+    	color: #8a0 ;
+    }
+
+    div#contenu a:hover
+    {
+    	color: #9b2 ;
+    }
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #8a0 ;
 }
